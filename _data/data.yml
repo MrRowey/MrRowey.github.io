@@ -57,18 +57,14 @@ experiences:
     - role: ICT Cluster Technician
       time: Sep 2024 - Present
       company: REAch2 Academy Trust
-      details: |
 
     - role: Crew Trainer/Crew Member
       time: Nov 2020 - Aug 2024
       company: McDonalds
-      details: |
 
     - role: IT Technician
       time: Sep 2017 - Nov 2020
       company: Wilfred Owen Primary School
-      details: |
-        Delt with Network Management and day to day issues as well as aided-in all school related activity that needed IT Support.
 
 projects:
   title: Projects
@@ -97,16 +93,13 @@ skills:
 
   toolset:
     - name: C#
-      level: 40%
+      level: 35%
 
     - name: Javascript
-      level: 60%
+      level: 50%
 
     - name: HTML & CSS
       level: 80%
 
     - name: Github/Git
-      level: 70%
-
-footer: >
-  TBD
+      level: 65%
