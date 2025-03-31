@@ -1,0 +1,8 @@
+title: Josh's Portfolio Site
+description: >-
+  Josh's portfolio website showcases his technical expertise and innovative projects as an ICT Technician. With a clean and dynamic design, the site highlights his GitHub contributions, such as modern tools for gaming and efficient virtualization solutions. Visitors can explore Josh’s skills in web development, system optimization, and server management, while discovering his passion for education, technology, and lifelong learning.
+github_username:  MrRowey
+
+theme: minima
+plugins:
+  - jekyll-feed
