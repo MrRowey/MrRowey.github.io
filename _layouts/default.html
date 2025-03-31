@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ site.description }}">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
   <header>
@@ -15,10 +15,10 @@
 
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="{{ /gh_projects.md | relative_url }}">GitHub Projects</a></li>
-      <li><a href="{{ /home_projects.md | relative_url }}">Home Projects</a></li>
-      <li><a href="{{ /assets/Josh_Rowey_CV.pdf | relative_url }}" download>Download CV</a></li>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ 'gh_projects.md' | relative_url }}">GitHub Projects</a></li>
+      <li><a href="{{ 'home_projects.md' | relative_url }}">Home Projects</a></li>
+      <li><a href="{{ 'assets/Josh_Rowey_CV.pdf' | relative_url }}" download>Download CV</a></li>
     </ul>
   </nav>
 
