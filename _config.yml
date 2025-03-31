@@ -1,0 +1,11 @@
+title: Josh's Portfolio
+description: A portfolio showcasing my projects and skills.
+url: "https://MrRowey.github.io"
+theme: minima
+author: "Josh Row"
+plugins:
+  - jekyll-seo-tag
+
+
+markdown: kramdown
+permalink: pretty
