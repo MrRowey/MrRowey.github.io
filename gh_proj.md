@@ -5,12 +5,16 @@ title: GitHub Projects
 
 # 🖥️ GitHub Projects
 
-## [Patchnotes Site](https://github.com/MrRowey/FAF-Patchnotes-Site?form=MG0AV3)
-- **Purpose**: Enhance user experience for game balance updates.
-- **Features**: Jekyll framework, polished UI.
-- **Learning Outcome**: Improved static site generator skills.
+<div class="card">
+  <a href="https://github.com/MrRowey/FAF-Patchnotes-Site?form=MG0AV3">Patchnotes Site</a>
+  <p><strong>Purpose:</strong> Enhance user experience for game balance updates.</p>
+  <p><strong>Features:</strong> Jekyll framework, polished UI.</p>
+  <p><strong>Learning Outcome:</strong> Improved static site generator skills.</p>
+</div>
 
-## [Unit Calculator](https://github.com/MrRowey/UnitCalculator)
-- **Purpose**: Analyze game mechanics efficiently.
-- **Features**: Ratio calculations, intuitive design.
-- **Learning Outcome**: Strengthened algorithm and interface design.
+<div class="card">
+  <a href="https://github.com/MrRowey/UnitCalculator">Unit Calculator</a>
+  <p><strong>Purpose:</strong> Analyze game mechanics efficiently.</p>
+  <p><strong>Features:</strong> Ratio calculations, intuitive design.</p>
+  <p><strong>Learning Outcome:</strong> Strengthened algorithm and interface design.</p>
+</div>
