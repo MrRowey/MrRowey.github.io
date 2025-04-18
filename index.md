@@ -3,6 +3,14 @@ layout: default
 title: "Hi, I'm Josh (aka Rowey)"
 ---
 
+<nav style="margin-bottom: 2rem;">
+  <a href="/" style="margin-right: 1rem;">Home</a>
+  <a href="#stack" style="margin-right: 1rem;">Tech Stack</a>
+  <a href="#projects" style="margin-right: 1rem;">Projects</a>
+  <a href="#home-projects" style="margin-right: 1rem;">Home Lab</a>
+  <a href="/cv.html">CV</a>
+</nav>
+
 # 👋 Hi there, I'm Josh (aka Rowey)
 
 I’m a **Primary School ICT Technician** with over **seven years of hands-on technical experience**, passionate about using technology to enrich education and empower students and teachers. I hold a **BSc in Computing and Information Technology** from [University of Derby](https://www.derby.ac.uk/?form=MG0AV3).
@@ -15,7 +23,7 @@ Outside of work, I’m a dad and stepdad to two boys. I enjoy nature walks, cine
 
 ---
 
-## 🧰 Tech Stack & Tools
+## 🧰 Tech Stack & Tools {#stack}
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
@@ -26,7 +34,7 @@ Outside of work, I’m a dad and stepdad to two boys. I enjoy nature walks, cine
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects {#projects}
 
 ### 🎯 [FAF Patchnotes Site](https://github.com/MrRowey/FAF-Patchnotes-Site?form=MG0AV3)
 A clean, modern platform to present game balance updates for the FAForever community.
@@ -44,7 +52,7 @@ A Windows desktop app initially developed to solve a business workflow challenge
 
 ---
 
-## 🏠 Home Projects
+## 🏠 Home Projects {#home-projects}
 
 - 🔧 **Compact Proxmox Configuration** – Lightweight virtualisation setup  
   ![Tech Badge](https://img.shields.io/badge/Tech-Proxmox-00C0A0?style=flat-square)
@@ -63,14 +71,14 @@ A Windows desktop app initially developed to solve a business workflow challenge
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Stats {#stats}
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MrRowey&show_icons=true&theme=react&hide_border=true)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrRowey&layout=compact&theme=react&hide_border=true)
 
 ---
 
-## 📫 Let's Connect!
+## 📫 Let's Connect! {#contact}
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/josh-row-938394255/)
 - 🎮 [FAForever Profile](https://github.com/FAForever?form=MG0AV3)
