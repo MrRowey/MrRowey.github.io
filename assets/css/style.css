@@ -17,9 +17,9 @@ html, body {
 
 /* Section Spacing */
 .section {
-    margin-bottom: 4rem;  /* Increased margin-bottom for more space between sections */
-    padding-top: 3rem;  /* Added padding-top for better spacing */
-    padding-bottom: 3rem;  /* Added padding-bottom for better spacing */
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 /* Hero Section */
@@ -97,6 +97,7 @@ html, body {
     justify-content: space-between;
     height: 100%;
     color: #333;
+    margin-bottom: 2rem; /* Added margin-bottom to ensure spacing between cards */
 }
 
 .card h3 {
@@ -131,10 +132,6 @@ html, body {
 .card a:hover {
     background-color: #4e54c8;
     color: white;
-}
-
-.card + .card {
-    margin-top: 2rem;  /* Added margin-top for spacing between cards */
 }
 
 /* Grid Layout */
