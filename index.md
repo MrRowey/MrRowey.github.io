@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "My Portfolio"
 ---
 <!-- About Me -->
 <section class="section about-section fade-up" id="about">

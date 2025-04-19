@@ -2,42 +2,60 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <title>{{ page.title | default: site.title }}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ page.description | default: site.description }}">
+<title>{{ page.title | default: site.title }}</title>
 
-  <!-- Link to the global CSS file -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<!-- Link to the global CSS file -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 
 <body>
 
-  <!-- Header section (often includes navigation and hero) -->
-  <header class="hero">
-    <div class="container">
-      <h1>{{ page.title | default: site.title }}</h1>
-      <p>{{ page.description | default: site.description }}</p>
-    </div>
-  </header>
+<!-- Header section (often includes navigation and hero) -->
+<header class="hero">
+  <div class="container">
+    <h1>{{ page.title | default: site.title }}</h1>
+    <p>{{ page.description | default: site.description }}</p>
+  </div>
+</header>
 
-  <!-- Navigation (navbar) -->
-  <nav class="navbar">
-    <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-    <a href="/cv.html" class="{% if page.url == '/cv.html' %}active{% endif %}">CV</a>
-    <a href="/blog.html" class="{% if page.url == '/blog.html' %}active{% endif %}">Blog</a>
-    <a href="/contact.html" class="{% if page.url == '/contact.html' %}active{% endif %}">Contact</a>
-  </nav>
+<!-- Navigation (navbar) -->
+<nav class="navbar">
+  <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+  <a href="/cv.html" class="{% if page.url == '/cv.html' %}active{% endif %}">CV</a>
+  <a href="/blog.html" class="{% if page.url == '/blog.html' %}active{% endif %}">Blog</a>
+  <a href="/contact.html" class="{% if page.url == '/contact.html' %}active{% endif %}">Contact</a>
+</nav>
 
-  <!-- Main content area -->
-  <main class="container">
-    {{ content }}
-  </main>
+<!-- Main content area -->
+<main class="container">
+  {{ content }}
+</main>
 
-  <!-- Footer section -->
-  <footer class="footer">
-    <p>© 2025 Josh Rowey • <a href="https://www.linkedin.com/in/josh-row-938394255/">LinkedIn</a></p>
-  </footer>
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-content">
+      <p>Thanks for visiting my website! 🌐</p>
+      <p>Feel free to reach out or follow me for updates:</p>
+      
+      <div class="social-links">
+          <a href="https://www.linkedin.com/in/josh-row-938394255/" target="_blank" aria-label="LinkedIn">
+              <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/MrRowey" target="_blank" aria-label="GitHub">
+              <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+          </a>
+          <!-- Replaced Twitter with Discord -->
+          <a href="https://discord.com/users/mrrowey" target="_blank" aria-label="Discord">
+              <img src="https://img.shields.io/badge/Discord-%2379C9F2.svg?style=flat-square&logo=discord&logoColor=white" alt="Discord">
+          </a>
+      </div>
+
+      <p class="footer-note">Made by Josh (aka Rowey) | © 2025</p>
+  </div>
+</footer>
 
 </body>
 
