@@ -33,9 +33,7 @@ title: "Home"
         <li>🚀 Optimised for performance on limited hardware</li>
         <li>📚 Simplified home virtualisation and experimentation</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
-
     <!-- Project 2 -->
     <div class="card">
       <h3>🌐 Personalised Local URLs with Nginx Proxy Manager</h3>
@@ -45,9 +43,7 @@ title: "Home"
         <li>🔗 Created easy-to-remember, custom URLs for home services</li>
         <li>🖧 Streamlined local network management</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
-
     <!-- Project 3 -->
     <div class="card">
       <h3>🔒 Intelligent DNS Management with Pi-hole</h3>
@@ -57,9 +53,7 @@ title: "Home"
         <li>🛡 Enhanced network security by blocking unwanted traffic</li>
         <li>⚡ Increased browsing speed and privacy</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
-
     <!-- Project 4 -->
     <div class="card">
       <h3>💾 TrueNAS Core Server Setup</h3>
@@ -69,9 +63,7 @@ title: "Home"
         <li>💾 Customised for high-performance home use</li>
         <li>🔐 Advanced storage capabilities, ensuring data reliability</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
-
     <!-- Project 5 -->
     <div class="card">
       <h3>🖼️ Home Photo & Video Server Setup</h3>
@@ -81,9 +73,7 @@ title: "Home"
         <li>🔍 Added photo and video indexing for easy retrieval</li>
         <li>🛠 Reliable media management across devices</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
-
     <!-- Project 6 -->
     <div class="card">
       <h3>🎬 Plex Media Server Integration</h3>
@@ -93,9 +83,7 @@ title: "Home"
         <li>📱 Supports media access across multiple devices</li>
         <li>🔒 Ensures secure, high-quality streaming</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
-
     <!-- Project 7 -->
     <div class="card">
       <h3>🖥️ Windows File Server Deployment</h3>
@@ -105,7 +93,6 @@ title: "Home"
         <li>🗃 Efficiently organised files and folders for home use</li>
         <li>🛡 Enhanced data security and user access controls</li>
       </ul>
-      <span class="tech-badge">Tech Badge</span>
     </div>
   </div>
 </section>

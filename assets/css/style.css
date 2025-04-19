@@ -95,9 +95,12 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
     color: #333;
-    margin-bottom: 2rem; /* Added margin-bottom to ensure spacing between cards */
+
+    /* Ensures cards are of equal height */
+    min-height: 100%;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    width: 100%; /* Ensures cards take full width of the grid item */
 }
 
 .card h3 {
@@ -137,9 +140,10 @@ html, body {
 /* Grid Layout */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Creates flexible grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates flexible grid */
     gap: 2rem; /* Provides space between cards */
     margin-top: 2rem;
+    
 }
 
 .grid .card {
