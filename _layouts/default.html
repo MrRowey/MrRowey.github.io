@@ -19,13 +19,14 @@
     </div>
   </header>
 
-<!-- Navigation (navbar) -->
-<nav class="navbar">
-  <a href="/" class="{{ 'active' if page.url == '/' else '' }}">Home</a>
-  <a href="/cv.html" class="{{ 'active' if page.url == '/cv.html' else '' }}">CV</a>
-  <a href="/blog.html" class="{{ 'active' if page.url == '/blog.html' else '' }}">Blog</a>
-  <a href="/contact.html" class="{{ 'active' if page.url == '/contact.html' else '' }}">Contact</a>
-</nav>
+  <!-- Navigation (navbar) -->
+  <nav class="navbar">
+    <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+    <a href="/cv.html" class="{% if page.url == '/cv.html' %}active{% endif %}">CV</a>
+    <a href="/blog.html" class="{% if page.url == '/blog.html' %}active{% endif %}">Blog</a>
+    <a href="/contact.html" class="{% if page.url == '/contact.html' %}active{% endif %}">Contact</a>
+  </nav>
+
 
 
   <!-- Main content area -->
