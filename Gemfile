@@ -5,7 +5,6 @@ gem "jekyll", "~> 4.4.1"
 
 # Theme and style-related gems
 gem "minima", "~> 2.5"
-gem "jekyll-sass-converter"
 
 # Jekyll plugins (these can be in a separate group)
 group :jekyll_plugins do

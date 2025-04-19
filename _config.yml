@@ -3,10 +3,6 @@ description: "Primary School ICT Technician | Tech Enthusiast | Open Source Cont
 baseurl: ""  # Leave this empty if this is the root of the site
 url: "https://mrrowey.github.io"  # Change this to your GitHub Pages URL if different
 
-sass:
-  style: compressed
-  sass_dir: _sass  # This directory is where your SCSS files are located
-
 exclude:
   - Gemfile
   - Gemfile.lock
