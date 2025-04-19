@@ -3,17 +3,30 @@ layout: default
 title: "Contact"
 ---
 
-<h1>Contact Me</h1>
+<link rel="stylesheet" href="/assets/css/style.css">
 
-<form action="https://formspree.io/f/xpzbwzoz" method="POST">
-  <label for="name">Name</label>
-  <input type="text" name="name" id="name" required>
+<header class="hero">
+  <div class="container">
+    <h1>Contact Josh Rowey</h1>
+    <p>Get in touch with me!</p>
+  </div>
+</header>
 
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email" required>
+<nav class="navbar">
+  <a href="/">Home</a>
+  <a href="/cv.html">CV</a>
+  <a href="/blog.html">Blog</a>
+  <a href="/contact.html">Contact</a>
+</nav>
 
-  <label for="message">Message</label>
-  <textarea name="message" id="message" required></textarea>
+<main class="container">
+  <section class="section">
+    <h2>Contact Form</h2>
+    <p>Feel free to reach out through email or social media!</p>
+    <!-- Add contact form or details -->
+  </section>
+</main>
 
-  <button type="submit">Send Message</button>
-</form>
+<footer class="footer">
+  <p>© 2025 Josh Rowey • <a href="https://www.linkedin.com/in/josh-row-938394255/">LinkedIn</a></p>
+</footer>

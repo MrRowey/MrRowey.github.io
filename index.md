@@ -45,11 +45,11 @@ title: "Home"
   </section>
 
   <section id="testimonials">
-  <h2>What People Say</h2>
-  <blockquote>
-    <p>"Very dedicated and knowledgeable lead of his school's IT team." - Bruno Reddy OBE, Creator of Times Tables Rock Stars & NumBots</p>
-  </blockquote>
-</section>
+    <h2>What People Say</h2>
+    <blockquote>
+      <p>"Very dedicated and knowledgeable lead of his school's IT team." - Bruno Reddy OBE, Creator of Times Tables Rock Stars & NumBots</p>
+    </blockquote>
+  </section>
 </main>
 
 <footer class="footer">
