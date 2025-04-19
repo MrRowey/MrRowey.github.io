@@ -1,9 +1,0 @@
-/* style.css (Main file) */
-@import url('components/_global.css');
-@import url('components/_hero.css');
-@import url('components/_navbar.css');
-@import url('components/_cards.css');
-@import url('components/_sections.css');
-@import url('components/_footer.css');
-@import url('components/_tech-badge.css');
-@import url('components/_testimonials.css');

@@ -1,4 +1,19 @@
 title: "Josh Rowey"
 description: "Primary School ICT Technician | Tech Enthusiast | Open Source Contributor"
-baseurl: ""
-url: "https://mrrowey.github.io" # Change this to your GitHub Pages URL if different
+baseurl: ""  # Leave this empty if this is the root of the site
+url: "https://mrrowey.github.io"  # Change this to your GitHub Pages URL if different
+
+sass:
+  style: compressed
+  sass_dir: _sass  # This directory is where your SCSS files are located
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - .gitignore
+  - .github/workflows/ci.yml
+  - assets/css/components  # This directory is not needed if you're using SCSS
+
+# Additional settings as required

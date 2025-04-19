@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
   <title>{{ page.title | default: site.title }}</title>
 
   <!-- Link to the global CSS file -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
 
   <!-- Header section (often includes navigation and hero) -->
@@ -27,8 +29,6 @@
     <a href="/contact.html" class="{% if page.url == '/contact.html' %}active{% endif %}">Contact</a>
   </nav>
 
-
-
   <!-- Main content area -->
   <main class="container">
     {{ content }}
@@ -40,4 +40,5 @@
   </footer>
 
 </body>
+
 </html>
