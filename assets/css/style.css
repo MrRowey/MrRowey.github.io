@@ -161,14 +161,42 @@ html, body {
     background: #eee;
 }
 
-/* Media Query for Small Devices */
-@media (max-width: 600px) {
-    .hero h1 {
-        font-size: 2rem;
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    /* Stack cards vertically on smaller screens */
+    .grid {
+        grid-template-columns: 1fr;  /* Stack the cards in a single column */
+        gap: 1.5rem;  /* Adjust the gap between stacked cards */
     }
 
-    .btn {
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
+    /* Adjust margin for each card on smaller screens */
+    .card {
+        padding: 20px;  /* Decrease padding inside cards for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens (mobile) */
+    .section {
+        padding-top: 2rem;  /* Adjust the section padding for mobile */
+        padding-bottom: 2rem;
+    }
+
+    /* Smaller cards with tighter padding */
+    .card {
+        padding: 15px;  /* Further decrease padding inside cards for mobile */
+    }
+
+    /* Reduce font size for mobile */
+    .card h3 {
+        font-size: 1.3rem;  /* Adjust font size */
+    }
+
+    .card p {
+        font-size: 0.9rem;  /* Adjust font size */
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;  /* Smaller hero heading on mobile */
     }
 }
