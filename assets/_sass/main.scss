@@ -1,10 +1,11 @@
 ---
 ---
-@import 'components/_global';
-@import 'components/_hero';
-@import 'components/_navbar';
-@import 'components/_cards';
-@import 'components/_sections';
-@import 'components/_footer';
-@import 'components/_tech-badge';
-@import 'components/_testimonials';
+// main.scss
+@import 'global';
+@import 'hero';
+@import 'navbar';
+@import 'footer';
+@import 'cards';
+@import 'sections';
+@import 'tech-badge';
+@import 'testimonials';
