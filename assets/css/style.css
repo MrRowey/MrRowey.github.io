@@ -137,9 +137,15 @@ html, body {
 /* Grid Layout */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Creates flexible grid */
+    gap: 2rem; /* Provides space between cards */
     margin-top: 2rem;
+}
+
+.grid .card {
+    /* Ensures cards do not overlap, adjust with flexible height */
+    flex-grow: 1; /* Ensures the cards take available height */
+    min-height: 350px; /* Minimum height for consistent layout */
 }
 
 /* Testimonials */
