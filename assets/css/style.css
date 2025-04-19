@@ -55,11 +55,43 @@ html, body {
   padding: 1rem 0;
 }
 
+/* Base style for the navigation links */
 .navbar a {
   text-decoration: none;
-  color: #333;
+  color: #333; /* Default link color */
   font-weight: 600;
+  padding: 12px 16px; /* Adding some padding for better clickability */
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s, transform 0.3s ease; /* Smooth transition for hover and active states */
 }
+
+/* Hover effect */
+.navbar a:hover {
+  color: #fff;
+  background-color: #4e54c8;  /* Background color change on hover */
+  transform: scale(1.05); /* Slight scaling effect on hover */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Active page indicator */
+.navbar a.active {
+  color: #fff;
+  background-color: #3b42a1;  /* A darker blue background for the active link */
+  font-weight: bold; /* Make the active page text bold */
+  transform: scale(1.1); /* Make the active link stand out by slightly increasing its size */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow effect on the active link */
+  border-radius: 10px; /* Round corners for the active link for a more prominent look */
+}
+
+/* Optional: Active link hover behavior (darker hover effect) */
+.navbar a.active:hover {
+  color: #fff;
+  background-color: #2c3684; /* A darker shade for the active link when hovered */
+  transform: scale(1.1); /* Keep the scaling effect on hover */
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow effect on active link hover */
+}
+
+
 
 main {
   padding: 2rem 0;
