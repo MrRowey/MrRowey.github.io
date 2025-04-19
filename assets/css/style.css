@@ -9,6 +9,7 @@
     --link-hover-text: #ffffff;
     --navbar-bg: #f8f8f8;
     --footer-bg: #eeeeee;
+    --section-bg: #f9f9f9;
   }
   
   @media (prefers-color-scheme: dark) {
@@ -23,6 +24,7 @@
       --link-hover-text: #1a1a1a;
       --navbar-bg: #2a2a2a;
       --footer-bg: #1a1a1a;
+      --section-bg: #2e2e2e;
     }
   }
   
@@ -37,6 +39,15 @@
     color: var(--text-color);
   }
   
+  .about-section {
+    background-color: var(--section-bg); /* Uses theme-aware color */
+    border-radius: 12px;
+    padding: 3rem 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+  
   .container {
     width: 90%;
     max-width: 1200px;
@@ -48,6 +59,13 @@
   .section {
     margin-bottom: 4rem;
   }
+
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  
   
   /* Hero Section */
   .hero {

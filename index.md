@@ -2,23 +2,59 @@
 layout: default
 title: "Home"
 ---
+<!-- About Me -->
+<section class="section about-section fade-up" id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I’m a Primary School ICT Technician with over seven years of hands-on experience, passionate about using technology to enrich education and empower both students and teachers. I hold a BSc in Computing and Information Technology from the University of Derby, where I built a strong foundation in problem-solving, systems management, and IT innovation.
+    </p>
+    <p>
+      In my current role as an ICT Cluster Technician, I support multiple primary schools by maintaining and enhancing their IT environments. From troubleshooting classroom tech to introducing new tools and streamlining systems, I take pride in making technology reliable, efficient, and accessible.
+    </p>
+    <p>
+      Outside of education, I contribute to <strong>FAForever</strong>, an open-source gaming community project. Collaborating with a global team has sharpened my skills in development, user experience, and community engagement.
+    </p>
+    <p>
+      I'm also a proud dad and stepdad to two amazing boys. Whether we’re out on a nature walk or enjoying spontaneous adventures, family time is everything. My fiancée and I also love weekend getaways and cozy cinema nights—it’s all about creating balance and making memories.
+    </p>
+    <p>
+      Whether I’m supporting teachers, building home tech projects, or helping improve gaming tools, I’m always exploring meaningful, creative ways to use technology.
+    </p>
+  </div>
+</section>
+
 
 <!-- Featured Projects Section -->
 <section class="section">
   <h2>Featured Projects</h2>
   <div class="grid">
+    <!-- Project 1: FAF Patchnotes Site -->
     <div class="card">
-      <h3>FAF Patchnotes Site</h3>
-      <p>A static site to present game balance updates for the FAF community.</p>
-      <a href="https://github.com/MrRowey/FAF-Patchnotes-Site">View on GitHub</a>
+      <h3>🎯 FAF Patchnotes Site</h3>
+      <p>A clean, modern platform to present game balance updates for the FAForever community.</p>
+      <ul>
+        <li>🧩 Static version live and stable</li>
+        <li>🎨 Currently transitioning to a Jekyll-based UI</li>
+        <li>📈 Enhances communication and accessibility for patch notes</li>
+      </ul>
+      <a href="https://github.com/MrRowey/FAF-Patchnotes-Site" target="_blank">View on GitHub</a>
     </div>
+    <!-- Project 2: FAF News Publisher -->
     <div class="card">
-      <h3>FAF News Publisher</h3>
-      <p>Desktop app for streamlining content creation. Built in WPF + C#.</p>
-      <a href="https://github.com/MrRowey/FAF-News-Publisher-WPF">View on GitHub</a>
+      <h3>📰 FAF News Publisher (WPF)</h3>
+      <p>A Windows desktop app initially developed to solve a business workflow challenge for the Forever news team.</p>
+      <ul>
+        <li>🛠 Built with WPF and C# for a responsive and user-friendly experience</li>
+        <li>📝 Features included Markdown export</li>
+        <li>🔍 Originally designed to streamline content creation, but the requirement was later met through a different approach</li>
+        <li>💡 Valuable learning project for improving WPF application structure and UX design</li>
+      </ul>
+      <a href="https://github.com/MrRowey/FAF-News-Publisher-WPF" target="_blank">View on GitHub</a>
     </div>
   </div>
 </section>
+
 
 <!-- Home Lab Projects Section -->
 <section class="section">
