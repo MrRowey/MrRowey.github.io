@@ -24,7 +24,6 @@ title: "My Portfolio"
   </div>
 </section>
 
-
 <!-- Featured Projects Section -->
 <section class="section">
   <h2>Featured Projects</h2>
