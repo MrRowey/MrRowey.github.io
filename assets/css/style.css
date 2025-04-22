@@ -82,10 +82,20 @@ button:focus {
 }
   
 .hero {
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    background: url('/assets/images/bannerImage.png') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 4rem 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
 }
   
 .hero h1 {
@@ -93,6 +103,12 @@ button:focus {
     font-size: 2.5rem;
     letter-spacing: -0.02em;
     font-weight: 700;
+}
+
+.hero h1,
+.hero p {
+    position: relative;
+    z-index: 2;
 }
   
 .hero-buttons {
@@ -126,9 +142,7 @@ button:focus {
 }
 
 .section {
-    margin-bottom: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem 0;
 }
   
 .section h2 {
