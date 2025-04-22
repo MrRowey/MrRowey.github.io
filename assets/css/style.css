@@ -206,44 +206,94 @@ border-radius: 5px;
 
 
 /* Footer */
+/* Base footer styles */
 .footer {
-background-color: var(--footer-bg);
-padding: 2rem;
-color: var(--text-color);
-text-align: center;
-}
+    position: relative;
+    padding: 3rem 1rem 2rem;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.4s ease, color 0.4s ease;
+  }
+  
+  /* Default light mode */
+  body:not(.dark-mode) .footer {
+    background: linear-gradient(135deg, #f9fafb, #e5e7eb);
+    color: #1f2937;
+  }
+  
+  body:not(.dark-mode) .footer-note {
+    color: #6b7280;
+  }
+  
+  body:not(.dark-mode) .social-links a {
+    color: #4b5563;
+  }
+  
+  body:not(.dark-mode) .social-links a:hover {
+    color: #2563eb;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode .footer {
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color: #f3f4f6;
+  }
+  
+  body.dark-mode .footer-note {
+    color: #d1d5db;
+  }
+  
+  body.dark-mode .social-links a {
+    color: #9ca3af;
+  }
+  
+  body.dark-mode .social-links a:hover {
+    color: #60a5fa;
+  }
+  
+  /* Shared styles */
+  .footer-wave {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: url('https://svgshare.com/i/12La.svg') repeat-x;
+    animation: wave 8s linear infinite;
+  }
+  
+  @keyframes wave {
+    from { background-position-x: 0; }
+    to { background-position-x: 1000px; }
+  }
+  
+  .footer-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-thankyou,
+  .footer-connect {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .social-links {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .social-links a {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
 
-.footer-content {
-max-width: 1200px;
-margin: 0 auto;
-}
-
-.footer p {
-font-size: 1rem;
-margin: 0.5rem 0;
-}
-
-.social-links {
-margin-top: 1rem;
-display: flex;
-justify-content: center;
-gap: 1rem;
-}
-
-.social-links a {
-display: inline-block;
-transition: transform 0.3s ease;
-}
-
-.social-links a:hover {
-transform: scale(1.1);
-}
-
-.footer-note {
-font-size: 0.9rem;
-margin-top: 1rem;
-color: #aaa;
-}
 
 
 /* Media Queries */
