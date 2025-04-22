@@ -3,7 +3,7 @@
     --text-color: #333333;
     --card-bg: #ffffff;
     --card-text: #333333;
-    --card-border: rgba(0, 0, 0, 0.15);
+    --card-border: rgba(0, 0, 0, 0.1);
     --link-color: #4e54c8;
     --link-hover-bg: #4e54c8;
     --link-hover-text: #ffffff;
@@ -18,7 +18,7 @@
       --text-color: #f0f0f0;
       --card-bg: #2a2a2a;
       --card-text: #f0f0f0;
-      --card-border: rgba(255, 255, 255, 0.15);
+      --card-border: rgba(255, 255, 255, 0.1);
       --link-color: #8f94fb;
       --link-hover-bg: #8f94fb;
       --link-hover-text: #1a1a1a;
@@ -194,12 +194,8 @@ button:focus {
 }
   
 .card:hover {
-    border:2px solid transparent;
-    background-image: linear-gradient(var(--card-bg), var(--card-bg)), linear-gradient(135deg, #4e54c8, #8f94fb);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
     transform: translateY(-6px);
-    box-shadow: 0 8px 20px var(--card-border);
+    box-shadow: 0 8px 16px var(--card-border);
 }
 
 
