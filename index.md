@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "My Portfolio"
+title: 'My Portfolio'
 ---
+
 <!-- About Me -->
 <section class="section about-section fade-up" id="about">
   <div class="container">
@@ -54,6 +55,7 @@ title: "My Portfolio"
       </ul>
       <a href="https://github.com/MrRowey/FAF-News-Publisher-WPF" target="_blank">View on GitHub</a>
     </div>
+
   </div>
 </section>
 
@@ -61,7 +63,7 @@ title: "My Portfolio"
 <section class="section">
   <h2>Home Lab Projects</h2>
   <div class="grid">
-    <!-- Project Cards (abbreviated for clarity) -->
+    <!-- Project Cards -->
     <div class="card">
       <h3>🔧 Compact Proxmox Configuration</h3>
       <p>Lightweight virtualisation for a home lab setup.</p>
@@ -80,7 +82,33 @@ title: "My Portfolio"
         <li>🖧 Easy network management</li>
       </ul>
     </div>
-    <!-- (Other cards continue in same pattern) -->
+    <div class="card">
+      <h3>🛡️ PiHole DNS Server</h3>
+      <p>Network-wide ad blocking and DNS management.</p>
+      <ul>
+        <li>🖥️ Running on lightweight hardware</li>
+        <li>🛡️ Blocks ads and trackers across devices</li>
+        <li>⚡ Improved network performance</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>📸 Immich Photo & Video App</h3>
+      <p>Self-hosted private photo and video library.</p>
+      <ul>
+        <li>📦 Hosted on Proxmox</li>
+        <li>🖼️ Auto-uploads from devices</li>
+        <li>🔒 Full control over personal media</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🎞️ Plex & File Server on TrueNAS Core</h3>
+      <p>Centralized media streaming and file storage.</p>
+      <ul>
+        <li>🖥️ TrueNAS Core hosting Plex and SMB shares</li>
+        <li>🎬 High-quality media streaming</li>
+        <li>🗂️ Reliable file storage and backup</li>
+      </ul>
+    </div>
   </div>
 </section>
 
