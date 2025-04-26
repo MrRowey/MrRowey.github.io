@@ -30,32 +30,34 @@ title: 'My Portfolio'
 
 <!-- Featured Projects Section -->
 <section class="section">
+  
   <h2><i class="fas fa-star icon-header"></i> Featured Projects</h2>
-<div class="grid">
-  <div class="card">
-    <h3><i class="fas fa-bullseye icon"></i> FAF Patchnotes Site</h3>
-    <p>The Patchnotes site was the go-to platform for creating graphical balance changelogs, making it easier for the FAForever community to quickly understand the changes. Since the patchnotes are now automatically generated in the FA repository, and the manual work to create the patchnotes pages became too time-consuming, the site was phased out at the end of 2024.</p>
-    <p>However, I still use the repository as a personal playground to test new skills and experiment with what I’ve learned.</p>
-    <ul>
-      <li><i class="fas fa-puzzle-piece icon"></i> Static version live and stable</li>
-      <li><i class="fas fa-paint-brush icon"></i> Transitioning to a Jekyll-based UI</li>
-      <li><i class="fas fa-play icon"></i> Repo still used as a testing ground for new ideas</li>
-    </ul>
-    <a href="https://github.com/MrRowey/FAF-Patchnotes-Site" target="_blank">View on GitHub</a>
-  </div>
-</div>
 
-<div class="card">
-  <h3><i class="fas fa-newspaper icon"></i> FAF News Publisher (WPF)</h3>
-  <p>A Windows desktop app created to streamline content publishing for the FAForever news team, making it easier for non-coders to create news posts without needing to know Visual Studio Code or GitHub.</p>
-  <p>During development, we discovered an alternative solution to the problem, and as a result, the project has been publicly archived. However, this experience gave me valuable insights into OAuth authentication and how to work with it in real-world applications.</p>
-  <ul>
-    <li><i class="fas fa-tools icon"></i> Built with WPF and C#</li>
-    <li><i class="fas fa-exchange-alt icon"></i> Simplified news creation for non-technical users</li>
-    <li><i class="fas fa-lightbulb icon"></i> Gained experience working with OAuth authentication</li>
-  </ul>
-  <a href="https://github.com/MrRowey/FAF-News-Publisher-WPF" target="_blank">View on GitHub</a>
-</div>
+  <div class="grid">
+  
+    <div class="card">
+      <h3><i class="fas fa-bullseye icon"></i> FAF Patchnotes Site</h3>
+      <p>The Patchnotes site was the go-to platform for creating graphical balance changelogs, making it easier for the FAForever community to quickly understand the changes. Since the patchnotes are now automatically generated in the FA repository, and the manual work to create the patchnotes pages became too time-consuming, the site was phased out at the end of 2024.</p>
+      <p>However, I still use the repository as a personal playground to test new skills and experiment with what I’ve learned.</p>
+      <ul>
+        <li><i class="fas fa-puzzle-piece icon"></i> Static version live and stable</li>
+        <li><i class="fas fa-paint-brush icon"></i> Transitioning to a Jekyll-based UI</li>
+        <li><i class="fas fa-play icon"></i> Repo still used as a testing ground for new ideas</li>
+      </ul>
+      <a href="https://github.com/MrRowey/FAF-Patchnotes-Site" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3><i class="fas fa-newspaper icon"></i> FAF News Publisher (WPF)</h3>
+      <p>A Windows desktop app created to streamline content publishing for the FAForever news team, making it easier for non-coders to create news posts without needing to know Visual Studio Code or GitHub.</p>
+      <p>During development, we discovered an alternative solution to the problem, and as a result, the project has been publicly archived. However, this experience gave me valuable insights into OAuth authentication and how to work with it in real-world applications.</p>
+      <ul>
+        <li><i class="fas fa-tools icon"></i> Built with WPF and C#</li>
+        <li><i class="fas fa-exchange-alt icon"></i> Simplified news creation for non-technical users</li>
+        <li><i class="fas fa-lightbulb icon"></i> Gained experience working with OAuth authentication</li>
+      </ul>
+      <a href="https://github.com/MrRowey/FAF-News-Publisher-WPF" target="_blank">View on GitHub</a>
+    </div>
 
   </div>
 </section>
