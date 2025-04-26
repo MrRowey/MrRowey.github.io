@@ -14,13 +14,13 @@ title: 'My Portfolio'
       I hold a BSc in Computing and Information Technology from the University of Derby, where I built a strong foundation in problem-solving, systems management, and IT innovation.
     </p>
     <p>
-      <i class="fas fa-chalkboard-teacher"></i> <strong>Education-focused</strong> — I support multiple primary schools, maintaining and enhancing their IT environments for reliability and accessibility.
+      <strong>Education-focused</strong> — I support multiple primary schools, maintaining and enhancing their IT environments for reliability and accessibility.
     </p>
     <p>
-      <i class="fas fa-users-cog"></i> <strong>Community Contributor</strong> — I actively contribute to <strong>FAForever</strong>, an open-source gaming project, collaborating on development, user experience, and community tools.
+      <strong>Community Contributor</strong> — I actively contribute to <strong>FAForever</strong>, an open-source gaming project, collaborating on development, user experience, and community tools.
     </p>
     <p>
-      <i class="fas fa-family"></i> <strong>Family First</strong> — Proud dad and stepdad to two boys. We enjoy nature walks, spontaneous adventures, and cozy weekends with cinema nights.
+      <strong>Family First</strong> — Proud dad and stepdad to two boys. We enjoy nature walks, spontaneous adventures, and cozy weekends with cinema nights.
     </p>
     <p>
       Whether I’m supporting teachers, building home tech projects, or helping improve gaming tools, I’m always exploring meaningful, creative ways to use technology.
