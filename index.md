@@ -117,10 +117,8 @@ title: 'My Portfolio'
 
 <!-- Skills Section -->
 <section class="section" id="skills">
-  <div class="container">
     <h2><i class="fas fa-tools icon-header"></i> Skills</h2>
     <div class="grid">
-
       <!-- Technical Skills Card -->
       <div class="card">
         <h3><i class="fas fa-cogs icon"></i> Technical Skills</h3>
@@ -137,7 +135,6 @@ title: 'My Portfolio'
           <span class="skill-pill">GitHub</span>
         </div>
       </div>
-
       <!-- Soft Skills Card -->
       <div class="card">
         <h3><i class="fas fa-users icon"></i> Soft Skills</h3>
@@ -151,9 +148,7 @@ title: 'My Portfolio'
           <span class="skill-pill">Documentation</span>
         </div>
       </div>
-
     </div>
-  </div>
 </section>
 
 <!-- Testimonials -->
