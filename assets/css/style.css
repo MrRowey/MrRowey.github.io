@@ -459,3 +459,20 @@ button:focus {
     font-size: 0.9rem;
   }
 }
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.skill-pill {
+  background-color: var(--link-color);
+  color: var(--link-hover-text);
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}

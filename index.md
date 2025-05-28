@@ -115,6 +115,47 @@ title: 'My Portfolio'
   </div>
 </section>
 
+<!-- Skills Section -->
+<section class="section" id="skills">
+  <div class="container">
+    <h2><i class="fas fa-tools icon-header"></i> Skills</h2>
+    <div class="grid">
+
+      <!-- Technical Skills Card -->
+      <div class="card">
+        <h3><i class="fas fa-cogs icon"></i> Technical Skills</h3>
+        <div class="skills-list">
+          <span class="skill-pill">Windows Server</span>
+          <span class="skill-pill">Active Directory</span>
+          <span class="skill-pill">Proxmox</span>
+          <span class="skill-pill">TrueNAS</span>
+          <span class="skill-pill">DNS Management</span>
+          <span class="skill-pill">PowerShell</span>
+          <span class="skill-pill">Wi-Fi Configuration</span>
+          <span class="skill-pill">Nginx</span>
+          <span class="skill-pill">Pi-hole</span>
+          <span class="skill-pill">GitHub</span>
+        </div>
+      </div>
+
+      <!-- Soft Skills Card -->
+      <div class="card">
+        <h3><i class="fas fa-users icon"></i> Soft Skills</h3>
+        <div class="skills-list">
+          <span class="skill-pill">Problem-Solving</span>
+          <span class="skill-pill">Team Collaboration</span>
+          <span class="skill-pill">Adaptability</span>
+          <span class="skill-pill">Project Planning</span>
+          <span class="skill-pill">Technical Training</span>
+          <span class="skill-pill">Customer Support</span>
+          <span class="skill-pill">Documentation</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- Testimonials -->
 <section id="testimonials">
   <h2><i class="fas fa-comment-dots icon-header"></i> What People Say</h2>
