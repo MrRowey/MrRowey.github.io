@@ -8,7 +8,7 @@ title: 'My Portfolio'
   <div class="container">
     <h2><i class="fas fa-user icon-header"></i> About Me</h2>
     <p>
-      I’m a Primary School ICT Technician with 7+ years of hands-on experience, passionate about using technology to enrich education and empower both students and teachers.
+      Hi, I’m <strong>Josh</strong> — a Primary School ICT Technician with 7+ years of hands-on experience, passionate about using technology to enrich education and empower both students and teachers.
     </p>
     <p>
       I hold a BSc in Computing and Information Technology from the University of Derby, where I built a strong foundation in problem-solving, systems management, and IT innovation.
@@ -17,7 +17,7 @@ title: 'My Portfolio'
       <strong>Education-focused</strong> — I support multiple primary schools, maintaining and enhancing their IT environments for reliability and accessibility.
     </p>
     <p>
-      <strong>Community Contributor</strong> — I actively contribute to <strong>FAForever</strong>, an open-source gaming project, collaborating on development, user experience, and community tools.
+      <strong>Community Contributor</strong> — I have contributed to <strong>FAForever</strong>, an open-source gaming project, collaborating on development, user experience, and community tools.
     </p>
     <p>
       <strong>Family First</strong> — Proud dad and stepdad to two boys. We enjoy nature walks, spontaneous adventures, and cozy weekends with cinema nights.
@@ -27,6 +27,7 @@ title: 'My Portfolio'
     </p>
   </div>
 </section>
+
 
 <!-- Featured Projects Section -->
 <section class="section">
