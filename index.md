@@ -164,29 +164,36 @@ title: 'My Portfolio'
   <h2><i class="fas fa-certificate icon-header"></i> Badges & Certifications</h2>
   <div class="grid">
 
+    <!-- Introduction to Cybersecurity -->
     <div class="card">
       <h3><i class="fas fa-lock icon"></i> Introduction to Cybersecurity</h3>
       <p>Issued by Cisco via Credly</p>
-      <p>Cisco certifies that I successfully completed the Introduction to Cybersecurity course. This credential demonstrates foundational knowledge of cyber threats, security principles, vulnerabilities, and defense strategies.</p>
+      <p>This credential demonstrates foundational knowledge of cybersecurity threats, vulnerabilities, defense strategies, and insights into career opportunities in the field.</p>
       <ul>
-        <li><i class="fas fa-globe icon"></i> Awareness of global cyber threat impacts</li>
-        <li><i class="fas fa-user-shield icon"></i> Understanding of vulnerabilities and defense</li>
-        <li><i class="fas fa-road icon"></i> Insight into cybersecurity career paths</li>
+        <li><i class="fas fa-globe icon"></i> Global threat landscape awareness</li>
+        <li><i class="fas fa-user-shield icon"></i> Defense principles and vulnerability analysis</li>
+        <li><i class="fas fa-road icon"></i> Career awareness in cybersecurity</li>
       </ul>
-      <a href="https://www.credly.com/badges/df0bcdf6-37ab-4e41-b1dc-7e1a56c2121b/public_url" target="_blank">View Credential</a>
+      <!-- Credly Embed -->
+      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b768f2f8-8566-419b-a064-f161e6d79817" data-share-badge-host="https://www.credly.com"></div>
     </div>
 
+    <!-- Computer Hardware Basics -->
     <div class="card">
       <h3><i class="fas fa-desktop icon"></i> Computer Hardware Basics</h3>
       <p>Issued by Cisco via Credly</p>
-      <p>This badge verifies completion of Cisco's Computer Hardware Basics course. It demonstrates a practical understanding of computer and mobile device hardware, and basic skills in building, upgrading, and troubleshooting PCs.</p>
+      <p>This badge confirms practical skills in building, repairing, and maintaining computer hardware and mobile devices, along with fundamental troubleshooting techniques.</p>
       <ul>
-        <li><i class="fas fa-microchip icon"></i> Familiarity with internal PC components</li>
-        <li><i class="fas fa-toolbox icon"></i> Basic repair and upgrade techniques</li>
-        <li><i class="fas fa-wrench icon"></i> Troubleshooting with essential tools</li>
+        <li><i class="fas fa-microchip icon"></i> Core PC and device components</li>
+        <li><i class="fas fa-tools icon"></i> Installation, upgrades, and maintenance</li>
+        <li><i class="fas fa-wrench icon"></i> Basic diagnostics and troubleshooting</li>
       </ul>
-      <a href="https://www.credly.com/badges/f9c2a7ae-8319-4a3c-b94a-e603816d00e6/public_url" target="_blank">View Credential</a>
+      <!-- Credly Embed -->
+      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1c343d58-4c9d-4b19-bb64-75e515dadf15" data-share-badge-host="https://www.credly.com"></div>
     </div>
 
   </div>
+
+  <!-- Load Credly Script Once -->
+  <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </section>
