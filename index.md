@@ -158,3 +158,35 @@ title: 'My Portfolio'
     <p>"Very dedicated and knowledgeable lead of his school's IT team." - Bruno Reddy OBE, Creator of Times Tables Rock Stars & NumBots</p>
   </blockquote>
 </section>
+
+<!-- Badges & Certifications Section -->
+<section class="section" id="certifications">
+  <h2><i class="fas fa-certificate icon-header"></i> Badges & Certifications</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3><i class="fas fa-lock icon"></i> Introduction to Cybersecurity</h3>
+      <p>Issued by Cisco via Credly</p>
+      <p>Cisco certifies that I successfully completed the Introduction to Cybersecurity course. This credential demonstrates foundational knowledge of cyber threats, security principles, vulnerabilities, and defense strategies.</p>
+      <ul>
+        <li><i class="fas fa-globe icon"></i> Awareness of global cyber threat impacts</li>
+        <li><i class="fas fa-user-shield icon"></i> Understanding of vulnerabilities and defense</li>
+        <li><i class="fas fa-road icon"></i> Insight into cybersecurity career paths</li>
+      </ul>
+      <a href="https://www.credly.com/badges/df0bcdf6-37ab-4e41-b1dc-7e1a56c2121b/public_url" target="_blank">View Credential</a>
+    </div>
+
+    <div class="card">
+      <h3><i class="fas fa-desktop icon"></i> Computer Hardware Basics</h3>
+      <p>Issued by Cisco via Credly</p>
+      <p>This badge verifies completion of Cisco's Computer Hardware Basics course. It demonstrates a practical understanding of computer and mobile device hardware, and basic skills in building, upgrading, and troubleshooting PCs.</p>
+      <ul>
+        <li><i class="fas fa-microchip icon"></i> Familiarity with internal PC components</li>
+        <li><i class="fas fa-toolbox icon"></i> Basic repair and upgrade techniques</li>
+        <li><i class="fas fa-wrench icon"></i> Troubleshooting with essential tools</li>
+      </ul>
+      <a href="https://www.credly.com/badges/f9c2a7ae-8319-4a3c-b94a-e603816d00e6/public_url" target="_blank">View Credential</a>
+    </div>
+
+  </div>
+</section>
