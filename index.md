@@ -168,32 +168,29 @@ title: 'My Portfolio'
     <div class="card">
       <h3><i class="fas fa-lock icon"></i> Introduction to Cybersecurity</h3>
       <p>Issued by Cisco via Credly</p>
+      <img src="/assets/images/badges/cybersecurity.png" alt="Introduction to Cybersecurity Badge" class="badge-image">
       <p>This credential demonstrates foundational knowledge of cybersecurity threats, vulnerabilities, defense strategies, and insights into career opportunities in the field.</p>
       <ul>
         <li><i class="fas fa-globe icon"></i> Global threat landscape awareness</li>
         <li><i class="fas fa-user-shield icon"></i> Defense principles and vulnerability analysis</li>
         <li><i class="fas fa-road icon"></i> Career awareness in cybersecurity</li>
       </ul>
-      <!-- Credly Embed -->
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b768f2f8-8566-419b-a064-f161e6d79817" data-share-badge-host="https://www.credly.com"></div>
+      <a href="https://www.credly.com/badges/b768f2f8-8566-419b-a064-f161e6d79817/public_url" target="_blank">Verify on Credly</a>
     </div>
 
     <!-- Computer Hardware Basics -->
     <div class="card">
       <h3><i class="fas fa-desktop icon"></i> Computer Hardware Basics</h3>
       <p>Issued by Cisco via Credly</p>
+      <img src="/assets/images/badges/hardware-basics.png" alt="Computer Hardware Basics Badge" class="badge-image">
       <p>This badge confirms practical skills in building, repairing, and maintaining computer hardware and mobile devices, along with fundamental troubleshooting techniques.</p>
       <ul>
         <li><i class="fas fa-microchip icon"></i> Core PC and device components</li>
         <li><i class="fas fa-tools icon"></i> Installation, upgrades, and maintenance</li>
         <li><i class="fas fa-wrench icon"></i> Basic diagnostics and troubleshooting</li>
       </ul>
-      <!-- Credly Embed -->
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1c343d58-4c9d-4b19-bb64-75e515dadf15" data-share-badge-host="https://www.credly.com"></div>
+      <a href="https://www.credly.com/badges/1c343d58-4c9d-4b19-bb64-75e515dadf15/public_url" target="_blank">Verify on Credly</a>
     </div>
 
   </div>
-
-  <!-- Load Credly Script Once -->
-  <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </section>

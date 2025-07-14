@@ -424,3 +424,9 @@ button:focus-visible {
 }
 
 
+.badge-image {
+  max-width: 150px;
+  height: auto;
+  margin: 10px 0;
+  display: block;
+}
