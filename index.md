@@ -168,7 +168,6 @@ title: 'My Portfolio'
     <div class="card">
       <h3><i class="fas fa-lock icon"></i> Introduction to Cybersecurity</h3>
       <p>Issued by Cisco via Credly</p>
-      <img src="{{ '/assets/images/badges/cybersecurity.png' | relative_url }}" alt="Introduction to Cybersecurity Badge" class="badge-image">
       <p>This credential demonstrates foundational knowledge of cybersecurity threats, vulnerabilities, defense strategies, and insights into career opportunities in the field.</p>
       <ul>
         <li><i class="fas fa-globe icon"></i> Global threat landscape awareness</li>
@@ -182,7 +181,6 @@ title: 'My Portfolio'
     <div class="card">
       <h3><i class="fas fa-desktop icon"></i> Computer Hardware Basics</h3>
       <p>Issued by Cisco via Credly</p>
-      <img src="{{ '/assets/images/badges/hardware-basics.png' | relative_url }}" alt="Computer Hardware Basics Badge" class="badge-image">
       <p>This badge confirms practical skills in building, repairing, and maintaining computer hardware and mobile devices, along with fundamental troubleshooting techniques.</p>
       <ul>
         <li><i class="fas fa-microchip icon"></i> Core PC and device components</li>
